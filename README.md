@@ -20,7 +20,35 @@ To write a program for mean, variance and cross correlation in SCILAB and verify
 4. **Compute Mean, Variance and Cross Correlation:** Use Scilab's functions to calculate the mean and variance of the computed function values.
 
 5. **Display Results:** Output the computed mean, variance and Cross Correlation.
+ 
+## CODE
+clc;
+clear;
+close;
 
+// Given data
+x = [10 20 30 40 50 60 70];
+
+// Mean
+mean_value = mean(x);
+
+// Variance
+variance_value = variance(x);
+
+// Display results
+disp("Mean = ");
+disp(mean_value);
+
+disp("Variance = ");
+disp(variance_value);
+
+// Plot
+figure();
+plot(x, 'o-');
+xlabel("Data");
+ylabel("Value");
+title("Mean and Variance");
+xgrid();
 # PROCEDURE
 
 * Refer Algorithms and write code for the experiment.
@@ -31,23 +59,15 @@ To write a program for mean, variance and cross correlation in SCILAB and verify
 * If any Error, correct it in code and execute again.
 * Verify the generated results.
 
+## TABULATION
+<img width="1161" height="1600" alt="image" src="https://github.com/user-attachments/assets/f5426c3f-f20e-498f-8344-fb2ceb09c1f4" />
 
-GRAPH:
+## CALCULATION
+<img width="772" height="1395" alt="image" src="https://github.com/user-attachments/assets/27679045-8597-4d44-9c9b-041171736c53" />
+<img width="1600" height="1168" alt="image" src="https://github.com/user-attachments/assets/4072b6ea-0d50-4699-bcc4-b8bd55ec3a93" />
 
-<img width="1599" height="899" alt="image" src="https://github.com/user-attachments/assets/ef061334-e730-4028-a46e-a37f0eb80e3e" />
+## OUTPUT
+<img width="663" height="589" alt="image" src="https://github.com/user-attachments/assets/84da714f-0610-4f91-856b-d6fa58bea7f6" />
 
-
-
-CALCULATION:
-<img width="899" height="1599" alt="image" src="https://github.com/user-attachments/assets/d60ae4cb-397f-4523-baad-db29c31cec0a" />
-
-
-
-
-RESULT: Thus the mean , variance and cross correlation are executed in Scilab and output is verified. 
-
-
-
-
-
-
+## RESULT
+Thus the mean and variance are executed in Scilab and output is verified.
