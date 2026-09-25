@@ -23,32 +23,47 @@ To write a program for mean, variance and cross correlation in SCILAB and verify
  
 ## CODE
 clc;
+
 clear;
+
 close;
 
 // Given data
+
 x = [10 20 30 40 50 60 70];
 
 // Mean
+
 mean_value = mean(x);
 
 // Variance
+
 variance_value = variance(x);
 
 // Display results
+
 disp("Mean = ");
+
 disp(mean_value);
 
 disp("Variance = ");
+
 disp(variance_value);
 
 // Plot
+
 figure();
+
 plot(x, 'o-');
+
 xlabel("Data");
+
 ylabel("Value");
+
 title("Mean and Variance");
+
 xgrid();
+
 # PROCEDURE
 
 * Refer Algorithms and write code for the experiment.
